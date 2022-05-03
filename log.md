@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 1: May 1, 2022
+### Day 1: May 1st, 2022
 
 **Today's Progress**: Learnt the basics of CSS animation.
 
@@ -8,7 +8,7 @@
 
 **Link to work:** [CSS Animations](practice/day_1/index.html, practice/day_1/style.css)
 
-### Day 2: May 2, 2022
+### Day 2: May 2nd, 2022
 
 **Today's Progress**: Learned how to clone repository. Also learnt some basic git commands like: 'add .', 'commit', push.
 
@@ -16,3 +16,10 @@
 
 **Link to work:** [Github Fundamentals](practice/day_2/github_fundamentals_1.md)
 
+### Day 3: May 3rd, 2022
+
+**Today's Progress**: Learnt some new git commands like: 'pull', 'merge', checkout, branch. I was able to create a new branch
+
+**Thoughts:** I really feel like the best way I understand how to clone my online repository to my local repository is by using the HTTPS code instead of the SSH key.
+
+**Link to work:** [Github Fundamentals 2](practice/day_3/github_fundamentals_2.md)
