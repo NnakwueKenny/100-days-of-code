@@ -12,3 +12,6 @@ Started learning github fundamentals. I struggled with folder arrangement, but I
 
 ### R1D3
 Started learning github commands which go beyond the local repository to the online(remote) repository. I struggled a little learning how to merge my branches to the local repository.
+
+### R1D4
+Started learning more CSS aniamtion and transition properties. I struggled a little with implementing transitions, but I was able to resolve it in the end.

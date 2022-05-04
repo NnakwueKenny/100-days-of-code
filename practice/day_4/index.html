@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <script src="../assets/js/tailwind.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Animation, Transition and Transformation</title>
+</head>
+<body class="flex">
+
+    <div class="container flex flex-col text-gray-700 h-screen w-full justify-start items-center">
+        <div class="intro text-3xl font-black undeline uppercase my-8">
+            CSS Animations, transitions and Transformations.
+        </div>
+        <div class="flex flex-col md:flex-row bg-cyan-300 w-5/6">
+            <div class="box-1 h-72 w-full bg-blue-600 flex-grow-1 relative">
+                <div class="flex justify-center items-center absolute w-full h-full px-4 text-lg text-green-200">
+                    The content of this box has the following transform property values: <br>
+                    translate(), rotate() and skew(). <br>
+                    It's also enabled to go the in the reverse direction when mouse is hovered on it.
+                </div>
+                <div class="animate bg-green-400 w-1/2 h-36 rounded-full flex items-center justify-center">1</div>
+            </div>
+        
+            <div class="box-2 h-72 w-full bg-yellow-600 relative overflow-hidden">
+                <div class="flex justify-center items-center absolute w-full h-full px-4 text-lg text-cyan-200 z-0 bg-black">
+                    The content of this box has the following transform property values: <br>
+                    translate(), rotate() and skew(). <br>
+                    It's also enabled to go the in the reverse direction when mouse is hovered on it.
+                </div>
+                <div class="animate bg-pink-400 h-full w-full flex items-center justify-center z-10 absolute p-4 text-blue-700 text-xl">
+                    Hover to slide to the right; remove to slide to the left
+                </div>
+            </div>
+            
+            <div class="box-3 flex h-72 w-full bg-pink-600 overflow-hidden">
+                <div class="animate bg-purple-400 w-36 h-36">3</div>
+            </div>     
+        </div>
+    </div>
+
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</body>
+</html>

@@ -22,4 +22,12 @@
 
 **Thoughts:** I really feel like the best way I understand how to clone my online repository to my local repository is by using the HTTPS code instead of the SSH key.
 
-**Link to work:** [Github Fundamentals 2](practice/day_3/github_fundamentals_2.md)
+**Link to work:** [Github Fundamentals 2](practice/day_3/github_fundamentals_2.md).
+
+### Day 4: May 4th, 2022
+
+**Today's Progress**: Concluded my learning of CSS animation, transition and transfromation. I was able to create three distinct boxes, all containing different transition, animation transformation rules.
+
+**Thoughts:** I really felt happy seeing that I was able to implement some animations using @keyframes, animations, transitions and transformations.
+
+**Link to work:** [CSS Animations, transitions and Transformations](practice/day_4/index.html)

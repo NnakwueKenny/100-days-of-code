@@ -1,0 +1,90 @@
+
+.box-1 .animate{
+    animation-name: round;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+}
+
+.box-1:hover .animate{
+    animation-name: round;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-out;
+}
+
+@keyframes round {
+    0% {
+        transform: translate(5%) rotate(0deg) skew(10deg);
+    }
+    25% {
+        transform: translate(95%, 5%) rotate(90deg) skew(10deg);
+    }
+    50% {
+        transform: translate(95%, 95%) rotate(180deg) skew(10deg);
+    }
+    75% {
+        transform: translate(5%, 95%) rotate(270deg) skew(10deg);
+    }
+    100% {
+        transform: translate(5%) rotate(360deg) skew(10deg);
+    }
+} 
+
+.box-2 .animate{
+    transition-duration: 1s;
+    transition-property: width, transform;
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.42, 0.97);
+}
+
+.box-2:hover .animate{
+    transform: translate(100%);
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(100%);
+    }
+    100% {
+        transform: translate(0%);
+    }
+}
+*
+
+.box-3 .animate{
+    animation-name: diag;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: both;
+    animation-timing-function: linear;
+    color: green;
+    font-size: x-large;
+}
+
+.box-3:hover .animate{
+    animation-name: diag;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: ease-out;
+}
+
+@keyframes diag {
+    0% {
+        transform: translate(0%) scale(1.3);
+    }
+    25% {
+        transform: translate(100%, 100%);
+    }
+    50% {
+        transform: translate(0%, 100%) scale(1.3);
+    }
+    75% {
+        transform: translate(100%, 0%);
+    }
+    100% {
+        transform: translate(0%);
+    }
+} 
