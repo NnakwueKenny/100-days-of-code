@@ -30,4 +30,12 @@
 
 **Thoughts:** I really felt happy seeing that I was able to implement some animations using @keyframes, animations, transitions and transformations.
 
-**Link to work:** [CSS Animations, transitions and Transformations](practice/day_4/index.html)
+**Link to work:** [CSS Animations, transitions and Transformations](practice/day_4)
+
+### Day 5: May 5th, 2022
+
+**Today's Progress**: Learnt CSS grid and Flexbox. I was able to create, using flexbox and grid, the basic layout of a website's homepage.
+
+**Thoughts:** I really felt more comfortable using flexbox (though, not without considering the fact I have been working with it for some time) than I did with Grid. I belive that, working on more projects using Grid, I will improve.
+
+**Link to work:** [CSS Animations, transitions and Transformations](practice/day_5)
