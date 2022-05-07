@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+
+    <style>
+        .wrapper {
+            grid-template-columns: 5fr 1fr;
+            grid-template-rows: auto auto minmax(100px, auto);
+        }
+        header {
+            grid-column: 1/-1;
+        }
+        .side-nav {
+            overflow-x: hidden;
+            transition-property: width;
+            transition-duration: .5s;
+        }
+        main {
+            grid-column: 1/-2;
+
+        }
+        article {
+            grid-column: -2/-1;
+        }
+        footer {
+            grid-column: 1/-1;
+        }
+    </style>
+
+    <div class="grid dark:text-gray-100 dark:bg-gray-900 h-screen">
+        <div class="wrapper grid h-full">
+
+            <!-- HEADER -->
+            
+            <header class="">
+                <nav class="flex h-24 items-center px-8 bg-gray-500 text-gray-100 dark:bg-gray-800 dark:text-gray-300">
+                    <div class="mr-4">
+                        <button class="toggle-sidenav open text-gray-200">
+                            cLICK
+                        </button>
+                    </div>
+                    <h1 class="logo mr-auto text-green-500 text-3xl">Logo</h1>
+                    <div class="">
+                        <ul class="flex space-x-4">
+                            <li><a href="">Nav 1</a></li>
+                            <li><a href="">Nav 1</a></li>
+                            <li><a href="">Nav 1</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- SIDE NAV -->
+
+            <div class="side-nav w-0 h-full bg-gray-300 text-gray-700 dark:text-gray-200 dark:bg-gray-900 fixed border-r-2 border-gray-500">
+                <div class="flex flex-col h-full">
+                    <div class="flex w-full justify-between text-xl mb-4 px-4 py-4">
+                        <div class="">
+                            <p class="">Side Nav</p>
+                        </div>
+                        <div class="">
+                            <button class="toggle-sidenav close">X</button>
+                        </div>
+                    </div>
+                    <div class="mb-auto">
+                        <ul>
+                            <li class="px-4 py-2 border-b border-t border-gray-400">Item 1</li>
+                            <li class="px-4 py-2 border-b border-gray-400">Item 1</li>
+                            <li class="px-4 py-2 border-b border-gray-400">Item 1</li>
+                            <li class="px-4 py-2 border-b border-gray-400">Item 1</li>
+                            <li class="px-4 py-2 border-b border-gray-400">Item 1</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="">
+                        <div class="px-4 py-2 border-t border-gray-300 font-semibold uppercase">
+                            <a href="">Bottom Nav</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MAIN CONTENT -->
+
+            <main class="bg-gray-200 dark:bg-600 dark:text-gray-700 mb-auto">
+                <div class="mx-16 mt-8">
+                    <h2 class="text-4xl mb-4">Main Content</h2>
+                    <p class="mb-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus quas alias facere nihil, veniam hic nostrum blanditiis unde deserunt, voluptatem modi esse impedit repellendus itaque excepturi expedita sunt iure. Sint provident hic, laboriosam omnis repellat blanditiis aliquam minima fugit dolor, quod et maxime saepe exercitationem ipsa necessitatibus, iste quidem?
+                    </p>
+                    
+                    <h3 class="text-3xl mb-4">Subhead</h3>
+                    <p class="mb-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus quas alias facere nihil, veniam hic nostrum blanditiis unde deserunt, voluptatem modi esse impedit repellendus itaque excepturi expedita sunt iure. Sint provident hic, laboriosam omnis repellat blanditiis aliquam minima fugit dolor, quod et maxime saepe exercitationem ipsa necessitatibus, iste quidem?
+                    </p>
+                    
+                    <h3 class="text-3xl mb-4">Some List</h3>
+                    <ul class="mb-4">
+                        <li>List Item 1</li>
+                        <li>List Item 2</li>
+                        <li>List Item 3</li>
+                        <li>List Item 4</li>
+                    </ul>
+
+                    
+                </div>
+            </main>
+
+            <!-- SIDE CONTENT -->
+
+            <article class="">
+                <div class="p-4">
+                    <h3 class="text-3xl mb-4">Aside Content</h3>
+                    <p class="px-2">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus quas alias facere nihil, veniam hic nostrum blanditiis unde deserunt, voluptatem modi esse impedit repellendus itaque excepturi expedita sunt iure. Sint provident hic, laboriosam omnis repellat blanditiis aliquam minima fugit dolor, quod et maxime saepe exercitationem ipsa necessitatibus, iste quidem?
+                    </p>
+                </div>
+            </article>
+
+            <footer class="bg-gray-600 text-gray-300">
+                <div class="mx-16 mt-6 px-8 py-4">
+                    <h4 class="text-4xl mb-4">Footer</h4>
+                    <div class=" flex">
+                        <div class="flex w-full md:w-2/3 lg-w-3/5">
+                            <ul class="mb-4 w-full">
+                                <li>List Item 1</li>
+                                <li>List Item 2</li>
+                                <li>List Item 3</li>
+                                <li>List Item 4</li>
+                            </ul>
+                            <ul class="mb-4 w-full">
+                                <li>List Item 1</li>
+                                <li>List Item 2</li>
+                                <li>List Item 3</li>
+                                <li>List Item 4</li>
+                            </ul>
+                            <ul class="mb-4 w-full">
+                                <li>List Item 1</li>
+                                <li>List Item 2</li>
+                                <li>List Item 3</li>
+                                <li>List Item 4</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="">
+                            <div class="mb-4">
+                                <h5 class="text-2xl font-semibold">Address</h5>
+                                <p>No. 46 Ahmadu Bello Way, Kano.</p>
+                            </div>
+                            <div class="mb-4">
+                                <h5 class="text-2xl font-semibold">Contact</h5>
+                                <p><span class="font-bold">Phone: </span> 08137926904</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="copyright">
+                        <div class="pt-5 text-center text-gray-300 text-base">
+                          <span>
+                            Copyright © 2021-2022
+                            <a href="https://codepen.io/uidesignhub" rel="" target="_blank" class="text-green hover:text-green-500 ">Demo Site</a></span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="../assets/js/tailwind.js"></script>
+    <script>
+        const sideNav = document.querySelector('.side-nav');
+        const toggleNavs = document.querySelectorAll('.toggle-sidenav');
+
+        toggleNavs.forEach((toggleNav) => {
+            toggleNav.addEventListener('click', (e) => {
+                if (e.currentTarget.classList.contains('close')) {
+                    sideNav.classList.toggle('w-56');
+                    console.log('Hello World')
+                } else if (e.currentTarget.classList.contains('open')) {
+                    sideNav.classList.toggle('w-56');
+                    console.log('Hello World')
+                }
+            })
+        })
+    </script>
+</body>
+</html>

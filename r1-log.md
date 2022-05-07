@@ -18,3 +18,6 @@ Started learning more CSS aniamtion and transition properties. I struggled a lit
 
 ### R1D5
 Started learning CSS Grid and Flexbox. At first, I experienced some difficulties trying to understand some of the concepts of CSS Grids but, I was able to grasp, to some extent, many of the concepts, at the end of the day. Hope to see some improvements soon.
+
+### R1D6
+Continued learning CSS Grid and Flexbox. I didn't experience most of the challenges which I experienced yesterday.

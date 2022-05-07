@@ -38,4 +38,12 @@
 
 **Thoughts:** I really felt more comfortable using flexbox (though, not without considering the fact I have been working with it for some time) than I did with Grid. I belive that, working on more projects using Grid, I will improve.
 
-**Link to work:** [CSS Animations, transitions and Transformations](practice/day_5)
+**Link to work:** [CSS Flexbox and Grid Layout](practice/day_5)
+
+### Day 6: May 6th, 2022
+
+**Today's Progress**: Learnt and implemented more CSS grid and Flexbox rules. I was able to create, using flexbox and grid, the basic layout of a website's homepage with added features like scrollable sidebar, using Javascript.
+
+**Thoughts:** I really saw a lot of improvements in my usage of CSS Grid. I will continue to improve.
+
+**Link to work:** [More CSS Grid and Flexbox Layout Implementation](practice/day_5)
