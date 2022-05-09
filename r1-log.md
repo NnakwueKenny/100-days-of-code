@@ -21,3 +21,9 @@ Started learning CSS Grid and Flexbox. At first, I experienced some difficulties
 
 ### R1D6
 Continued learning CSS Grid and Flexbox. I didn't experience most of the challenges which I experienced yesterday.
+
+### R1D7
+Continued learning CSS Grid and Flexbox. This time around I built a much more better-looking layout with some added features, showing that I am improving. But I am still not satisfied, completely.
+
+### R1D8
+Continued learning CSS Grid and Flexbox. Still, more improvements on the previous day's work. Still need more time to fully understand the whole concept of CSS grid; but, I hope to learn on-the-project.

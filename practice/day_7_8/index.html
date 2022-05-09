@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="">
+
+    <div class="grid dark:text-gray-100 dark:bg-gray-900 h-screen">
+        <div class="wrapper grid h-full">
+
+            <!-- HEADER -->
+            
+            <header class="">
+                <nav class="">
+                    <div class="flex flex-col lg:flex-row lg:justify-between lg:items-center py-6 px-8 bg-gray-500 text-gray-100 dark:bg-gray-800 dark:text-gray-300">
+                        <div class="flex items-center w-full">
+                            <div class="flex mr-auto w-full">
+                                <div class="mr-4 lg:visible">
+                                    <button class="toggle-sidenav open text-gray-200 text-2xl">
+                                        <span class="fa fa-bars"></span>
+                                    </button>
+                                </div>
+                                <h1 class="logo mr-auto text-3xl">
+                                    <span class="text-white">Demo</span><span class="text-green-500">Site</span>
+                                </h1>
+                            </div>
+                            <div class="lg:hidden flex main-nav-toggle space-x-4">
+                                <button class="toggler show">
+                                    <span class="fa fa-bars"></span>
+                                </button>
+                                <button class="toggler close hidden">
+                                    <span class="fa fa-times"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="main-nav-container h-0 lg:!h-auto justify-end self-end w-full transition-height duration-300 ease-in-out overflow-hidden">
+                            <div class="main-nav">
+                                <ul class="lg:pt-0 pt-4 flex flex-col lg:flex-row text-xl text-white justify-end">
+                                    <li class="hover:text-green-300 lg:mx-4 border-gray-600 border-gray-600 border-b-2 border-l-2 border-t-2 lg:border-b-0 lg:border-l-0 lg:border-t-0 px-4 lg:px-0 py-2"><a href="" class="">Nav 1</a></li>
+                                    <li class="hover:text-green-300 lg:mx-4 border-gray-600 border-gray-600 border-b-2 border-r-2 lg:border-b-0 lg:border-r-0 px-4 lg:px-0 py-2"><a href="" class="">Nav 2</a></li>
+                                    <li class="hover:text-green-300 lg:mx-4 border-gray-600 border-gray-600 border-b-2 border-l-2 lg:border-b-0 lg:border-l-0 px-4 lg:px-0 py-2"><a href="" class="">Nav 3</a></li>
+                                    <li class="hover:text-green-300 lg:mx-4 border-gray-600 border-gray-600 border-b-2 border-r-2 lg:border-b-0 lg:border-r-0 px-4 lg:px-0 py-2"><a href="" class="">Nav 4</a></li>
+                                    <li class="hover:text-green-300 lg:mx-4 border-gray-600 border-gray-600 border-b-2 border-l-2 lg:border-b-0 lg:border-l-0 px-4 lg:px-0 py-2"><a href="" class="">Nav 5</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- SIDE NAV -->
+
+            <div class="side-nav w-0 h-full bg-gray-300 text-gray-700 dark:text-gray-200 dark:bg-gray-900 fixed border-r-2 border-gray-500">
+                <div class="flex flex-col h-full">
+                    <div class="flex w-full justify-between text-xl mb-4 px-4 py-4">
+                        <div class="">
+                            <p class="">Side Nav</p>
+                        </div>
+                        <div class="">
+                            <button class="toggle-sidenav close"><span class="fa fa-times"></span></button>
+                        </div>
+                    </div>
+                    <div class="mb-auto">
+                        <ul>
+                            <li class="px-4 py-2 border-b border-t border-gray-400">Item 1</li>
+                            <li class="px-4 py-2 border-b border-gray-400">Nav 2</li>
+                            <li class="px-4 py-2 border-b border-gray-400">Nav 3</li>
+                            <li class="px-4 py-2 border-b border-gray-400">Nav 4</li>
+                            <li class="px-4 py-2 border-b border-gray-400">Nav 5</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="">
+                        <div class="px-4 py-2 border-t border-gray-300 font-semibold uppercase">
+                            <a href="">Bottom Nav</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MAIN SECTION -->
+
+            <main class="bg-gray-200 dark:bg-600 dark:text-gray-700 mb-auto flex flex-col lg:flex-row">
+                
+                <!-- MAIN CONTENT -->
+
+                <div class="px-12 lg:px-24 mt-8 w-full lg:w-4/6">
+                    <h2 class="text-4xl mb-4">Main Content</h2>
+                    <p class="mb-4 text-justify">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus quas alias facere nihil, veniam hic nostrum blanditiis unde deserunt, voluptatem modi esse impedit repellendus itaque excepturi expedita sunt iure. Sint provident hic, laboriosam omnis repellat blanditiis aliquam minima fugit dolor, quod et maxime saepe exercitationem ipsa necessitatibus, iste quidem?
+                    </p>
+                    
+                    <h3 class="text-3xl mb-4">Subhead</h3>
+                    <p class="mb-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus quas alias facere nihil, veniam hic nostrum blanditiis unde deserunt, voluptatem modi esse impedit repellendus itaque excepturi expedita sunt iure. Sint provident hic, laboriosam omnis repellat blanditiis aliquam minima fugit dolor, quod et maxime saepe exercitationem ipsa necessitatibus, iste quidem?
+                    </p>
+                    
+                    <h3 class="text-3xl mb-4">Some List</h3>
+                    <ul class="mb-4">
+                        <li>List Item 1</li>
+                        <li>List Item 2</li>
+                        <li>List Item 3</li>
+                        <li>List Item 4</li>
+                    </ul>
+                </div>
+                
+                <!-- SIDE CONTENT -->
+
+                <article class="w-full lg:w-2/6 bg-gray-300 py-6 lg:pt-8">
+                    <div class="px-12 lg:px-6 text-justify">
+                        <h3 class="text-3xl mb-4">Aside Content</h3>
+                        <p class="">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur natus quas alias facere nihil, veniam hic nostrum blanditiis unde deserunt, voluptatem modi esse impedit repellendus itaque excepturi expedita sunt iure. Sint provident hic, laboriosam omnis repellat blanditiis aliquam minima fugit dolor, quod et maxime saepe exercitationem ipsa necessitatibus, iste quidem?
+                        </p>
+                    </div>
+                </article>
+            </main>
+
+            <footer class="bg-gray-600 text-gray-300">
+                <div class="mx-16 mt-6 px-8 py-4">
+                    <h4 class="text-4xl mb-4 text-green-500">Footer</h4>
+                    <div class=" flex flex-col md:flex-row">
+                        <div class="flex w-full mr-auto mb-8 md:mb-0 md:w-2/3 lg-w-3/5 flex-col lg:flex-row justify-between">
+                            <div class="flex justify-between w-full md:pr-8">
+                                <ul class="mb-4 mr-auto">
+                                    <li>List Item 1</li>
+                                    <li>List Item 2</li>
+                                    <li>List Item 3</li>
+                                    <li>List Item 4</li>
+                                </ul>
+                                <ul class="mb-4">
+                                    <li>List Item 1</li>
+                                    <li>List Item 2</li>
+                                    <li>List Item 3</li>
+                                    <li>List Item 4</li>
+                                </ul>
+                            </div>
+                            <div class="flex justify-between w-full md:pr-8">
+                                <ul class="mb-4 mr-auto">
+                                    <li>List Item 1</li>
+                                    <li>List Item 2</li>
+                                    <li>List Item 3</li>
+                                    <li>List Item 4</li>
+                                </ul>
+                                <ul class="mb-4">
+                                    <li>List Item 1</li>
+                                    <li>List Item 2</li>
+                                    <li>List Item 3</li>
+                                    <li>List Item 4</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="flex flex-col lg:flex-row items-center">
+                            <div class="mb-4 text-center">
+                                <h5 class="text-2xl font-semibold">Address</h5>
+                                <p>No. 46 Ahmadu Bello Way, Kano.</p>
+                            </div>
+                            <div class="mb-4 text-center">
+                                <h5 class="text-2xl font-semibold">Contact</h5>
+                                <p><span class="font-bold">Phone: </span> 08137926904</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="copyright">
+                        <div class="pt-5 text-center text-gray-300 text-base">
+                            <div class="font-semibold text-base">
+                                Copyright © 2021-2022
+                                <a href="https://codepen.io/uidesignhub" rel="" target="_blank" class="text-green hover:text-green-500 ">
+                                    <span>Demo</span> <span class="text-green-400">Site</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="../assets/js/tailwind.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/fontawesome.min.js" integrity="sha512-5qbIAL4qJ/FSsWfIq5Pd0qbqoZpk5NcUVeAAREV2Li4EKzyJDEGlADHhHOSSCw0tHP7z3Q4hNHJXa81P92borQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

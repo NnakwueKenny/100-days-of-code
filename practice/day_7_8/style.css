@@ -1,6 +1,5 @@
-
 .wrapper {
-    grid-template-columns: 5fr 1fr;
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto auto minmax(100px, auto);
 }
 header {
@@ -12,12 +11,22 @@ header {
     transition-duration: .5s;
 }
 main {
-    grid-column: 1/-2;
+    grid-column: 1/-1;
 
 }
 article {
-    grid-column: -2/-1;
+    grid-column: -4/-1;
 }
 footer {
     grid-column: 1/-1;
+}
+
+@media screen and (max-width: 76px) {
+    main {
+        grid-column: 1/-1;
+    
+    }
+    article {
+        grid-column: 1/-1;
+    }
 }

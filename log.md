@@ -47,3 +47,19 @@
 **Thoughts:** I really saw a lot of improvements in my usage of CSS Grid. I will continue to improve.
 
 **Link to work:** [More CSS Grid and Flexbox Layout Implementation](practice/day_5)
+
+### Day 7: May 7th, 2022
+
+**Today's Progress**: Learnt and implemented more CSS grid and Flexbox rules. I was able to create, using flexbox and grid, the a more advanced layout of a website's homepage (different from the previous day) with added features like scrollable sidebar, using Javascript.
+
+**Thoughts:** Although, i still find CSS Grid a bit hard, I hope to continue to use to bulild cool projects in the future. I will continue to improve.
+
+**Link to work:** [More CSS Grid and Flexbox Layout Implementation](practice/day_7_8)
+
+### Day 8: May 8th, 2022
+
+**Today's Progress**: Added a new feature to the page: a top navigation panel with a 'toggler' (that hides at a particular screen size and resurfaces at another specified screen size) to toggle the navigation links between show and hide.
+
+**Thoughts:** I really felt happy doing this as I look forward to building cool stuff from now on. I will from henceforth, focus on lerning more advanced javascript features, as I continue to use CSS Grid and flexbox to build better interfaces.
+
+**Link to work:** [More CSS Grid and Flexbox Layout Implementation](practice/day_7_8)
