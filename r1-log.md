@@ -27,3 +27,6 @@ Continued learning CSS Grid and Flexbox. This time around I built a much more be
 
 ### R1D8
 Continued learning CSS Grid and Flexbox. Still, more improvements on the previous day's work. Still need more time to fully understand the whole concept of CSS grid; but, I hope to learn on-the-project.
+
+### R1D9
+Started a new project: a simple calculator. Struggled with building the UI, but I am satisfied with what I designed.

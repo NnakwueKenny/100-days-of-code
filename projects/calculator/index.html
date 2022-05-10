@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Simple calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <style>
+
+    </style>
+
+    <div class="bg-gray-300">
+        <div class="flex justify-center items-center h-screen">
+            <div class="border rounded-xl bg-gray-800 text-gray-100 p-4">
+                <div class="flex justify-between py-2 pb-4">
+                    <div class="text-xl">
+                        <div class=""><span class="text-green-600 italic font-semibold">KeN</span>-<span class="font-mono">KalK</span></div>
+                    </div>
+                    <div class="font-semibold border bg-gray-700 pb-1 border-2 border-orange-300 text-orange-300 rounded flex space-x-2 items-center px-2">
+                        <span class="">|</span>
+                        <span class="">|</span>
+                        <span class="">|</span>
+                        <span class="">|</span>
+                        <span class="">|</span>
+                    </div>
+                </div>
+                <form class="flex flex-col">
+                    <div class="pb-4">
+                        <input type="text" placeholder="0" class="px-2 text-right h-16 bg-gray-100 text-gray-700 font-semibold text-xl w-full rounded-lg">
+                    </div>
+                    <div class="flex flex-col gap-4">
+                        <div class="flex space-x-6">
+                            <button class="border rounded-md w-12 h-12 " id="">C</button>
+                            <button class="border rounded-md w-12 h-12" id="">/</button>
+                            <button class="border rounded-md w-12 h-12" id="">X</button>
+                            <button class="border rounded-md w-12 h-12" id="">del</button>
+                        </div>
+                        <div class="flex space-x-6">
+                            <button class="border rounded-md w-12 h-12" id="">7</button>
+                            <button class="border rounded-md w-12 h-12" id="">8</button>
+                            <button class="border rounded-md w-12 h-12" id="">9</button>
+                            <button class="border rounded-md w-12 h-12" id="">-</button>
+                        </div>
+                        <div class="flex space-x-6">
+                            <button class="border rounded-md w-12 h-12" id="">4</button>
+                            <button class="border rounded-md w-12 h-12" id="">5</button>
+                            <button class="border rounded-md w-12 h-12" id="">6</button>
+                            <button class="border rounded-md w-12 h-12" id="">+</button>
+                        </div>
+                        <div class="flex justify-between items-center space-x-6">
+                            <div class="mr-auto flex flex-col gap-4 w-full">
+                                <div class="flex space-x-2 justify-between">
+                                    <button class="border rounded-md w-12 h-12" id="">1</button>
+                                    <button class="border rounded-md w-12 h-12" id="">2</button>
+                                    <button class="border rounded-md w-12 h-12" id="">3</button>
+                                </div>
+                                <div class="flex space-x-2 justify-between">
+                                    <button class="border rounded-md w-12 h-12" id="">.</button>
+                                    <button class="border rounded-md w-12 h-12" id="">0</button>
+                                    <button class="border rounded-md w-12 h-12" id="">%</button>
+                                </div>
+                            </div>
+                            <div class="self-stretch flex">
+                                <button class="border rounded-md w-12 h-12 bg-green-600 h-full" id="">=</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="../assets/js/tailwind.js"></script>
+</body>
+</html>

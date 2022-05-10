@@ -63,3 +63,11 @@
 **Thoughts:** I really felt happy doing this as I look forward to building cool stuff from now on. I will from henceforth, focus on lerning more advanced javascript features, as I continue to use CSS Grid and flexbox to build better interfaces.
 
 **Link to work:** [More CSS Grid and Flexbox Layout Implementation](practice/day_7_8)
+
+### Day 9: May 9th, 2022
+
+**Today's Progress**: Started a new project: a simple calculator - though, it has a nice UI, but- with minimal operations. I was able to build the interface without adding the javascript functionalities.
+
+**Thoughts:** I really felt happy coming up such a cool UI (at least, in my judgement). Though it took me almost the whole day trying to do this, I still hope to improve.
+
+**Link to work:** [A Simple calculator Project](projects/calculator/)
