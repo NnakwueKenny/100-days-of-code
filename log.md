@@ -71,3 +71,11 @@
 **Thoughts:** I really felt happy coming up such a cool UI (at least, in my judgement). Though it took me almost the whole day trying to do this, I still hope to improve.
 
 **Link to work:** [A Simple calculator Project](projects/calculator/)
+
+### Day 10: May 10th, 2022
+
+**Today's Progress**: Added some new features to the app.- though, it has a nice UI, but- with minimal operations. I was able to build the interface without adding the javascript functionalities.
+
+**Thoughts:** I really had a hard time creating the functionalities; functionalities like 'delete', clear and 'number click'.
+
+**Link to work:** [A Simple calculator Project](projects/calculator/).

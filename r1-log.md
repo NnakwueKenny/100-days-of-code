@@ -30,3 +30,6 @@ Continued learning CSS Grid and Flexbox. Still, more improvements on the previou
 
 ### R1D9
 Started a new project: a simple calculator. Struggled with building the UI, but I am satisfied with what I designed.
+
+### R1D10
+Added some click functionality to the calculator app using some javascript functions.
