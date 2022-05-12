@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +8,7 @@
     <title>A Simple calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-    <style>
-
-    </style>
+<body class="">
 
     <div class="bg-gray-300">
         <div class="flex justify-center items-center h-screen">
@@ -38,8 +35,8 @@
                     <div class="flex flex-col gap-4">
                         <div class="flex space-x-6">
                             <button type="button" class="border rounded-md w-12 h-12" id="clear">C</button>
-                            <button class="operator border rounded-md w-12 h-12" id="divide">/</button>
-                            <button class="operator border rounded-md w-12 h-12" id="time">X</button>
+                            <button type="button" class="operator border rounded-md w-12 h-12" id="divide">/</button>
+                            <button class="operator border rounded-md w-12 h-12" id="times">*</button>
                             <button class="border rounded-md w-12 h-12" id="del">del</button>
                         </div>
                         <div class="flex space-x-6">
@@ -59,16 +56,16 @@
                                 <div class="flex space-x-2 justify-between">
                                     <button class="number border rounded-md w-12 h-12" id="one">1</button>
                                     <button class="number border rounded-md w-12 h-12" id="two">2</button>
-                                    <button class="border rounded-md w-12 h-12" id="three">3</button>
+                                    <button class="number border rounded-md w-12 h-12" id="three">3</button>
                                 </div>
                                 <div class="flex space-x-2 justify-between">
                                     <button class="border rounded-md w-12 h-12" id="decimal">.</button>
-                                    <button class="border rounded-md w-12 h-12" id="zero">0</button>
-                                    <button class="border rounded-md w-12 h-12" id="percent">%</button>
+                                    <button class="number border rounded-md w-12 h-12" id="zero">0</button>
+                                    <button class="number border rounded-md w-12 h-12" id="percent">%</button>
                                 </div>
                             </div>
                             <div class="self-stretch flex">
-                                <button class="border rounded-md w-12 h-12 bg-green-600 h-full" id="equals">=</button>
+                                <button class="equals border rounded-md w-12 h-12 bg-green-600 h-full" id="equals">=</button>
                             </div>
                         </div>
                     </div>

@@ -33,3 +33,6 @@ Started a new project: a simple calculator. Struggled with building the UI, but 
 
 ### R1D10
 Added some click functionality to the calculator app using some javascript functions.
+
+### R1D11
+Updated some of the functionality of the calculator app.
