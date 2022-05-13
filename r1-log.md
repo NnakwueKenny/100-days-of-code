@@ -36,3 +36,6 @@ Added some click functionality to the calculator app using some javascript funct
 
 ### R1D11
 Updated some of the functionality of the calculator app.
+
+### R1D12 - R1D13
+Completed the calculator app.

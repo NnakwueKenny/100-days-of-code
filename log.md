@@ -109,3 +109,13 @@
 **Link to work:** [A Simple calculator Project](projects/calculator/).
 
 ****************************************************************************************
+
+### Day 12 & 13: May 12th & 13th, 2022
+
+**Today's Progress**: Completed the calculator app.
+
+**Thoughts:** In the end, it still "...wasn't really as easy as I thought:..." It took me 5 days to complete the calcualtor app...But, I will not relent
+
+**Link to work:** [A Simple calculator Project](projects/calculator/).
+
+****************************************************************************************
